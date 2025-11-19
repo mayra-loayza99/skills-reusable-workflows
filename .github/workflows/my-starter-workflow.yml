@@ -14,3 +14,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy to your project.
+  call-reusable-workflow:
+  - uses: ./.github/workflows/reusable-workflow.ymlwith:
+  - node: 14
